@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1 - Subtractive Synthesizer</title>
+</head>
+<body style="background-color: rgb(181, 194, 194);">
+    <main>
+        <div class="mainPage">
+            
+            <!---------------Title of Component--------------------->
+            <div class="Title">
+                <h1>Subtractive Synthesizer</h1>
+                <p>By Alyssa Vue</p>
+            </div>
+
+            <!---------------Audio Player--------------------->
+            <div class="audioPlayer">
+                <h2>Audio</h2>
+                <audio controls>
+                    <source src="audio/SubtractiveSynthesizerTest.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!---------------Score File Format--------------------->
+            <div class="scoreFormat">
+                <h2>Score File Format</h2>
+                <p>The score file and audio features what subtractive Synthesizer can do.</p>
+                <ul>
+                    <li><b>Measure 1:</b> The score file features the different types of waveforms, saw, square, and triangle waves.</li>
+                    <li><b>Measure 2:</b> This part shows pitch changes applied to the waveform audio across different octaves.</li>
+                    <li><b>Measure 3:</b> The envelope effect is applied to the waves. The attack, decay, sustain, and release can be adjusted. This affects the volume and shape of the note, letting the sound fade in, decrease, maintain level, and fade out.</li>
+                    <li><b>Measure 4:</b> Polyphony is applied so multiple notes can play at the same time.</li>
+                    <li><b>Measure 5:</b> Reson and filter envelope are applied to the notes. Reson emphasizes a specific frequency, while the filter envelope sweeps the cutoff over time for dynamic effect.</li>
+                </ul>
+
+                <!----------Score Style Format---------------->
+                <!--AI is used to help insert the .score into the page-->
+                <p>Below the score file format for this component demonstration.</p>
+                <div class="scoreText">
+                    <pre><code>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;score bpm="90" beatspermeasure="4"&gt;
+  &lt;instrument instrument="SubtractiveInstrument"&gt;
+    &lt;!-- ======================================================= --&gt;
+    &lt;!-- MEASURE 1: Basic Waveform                               --&gt;
+    &lt;!-- ======================================================= --&gt;
+    &lt;note measure="1" beat="1" duration="0.8" note="C4" waveform="saw" resonFreq="2000" resonBand="100"/&gt;
+    &lt;note measure="1" beat="2" duration="0.8" note="C4" waveform="square" resonFreq="2000" resonBand="100"/&gt;
+    &lt;note measure="1" beat="3" duration="0.8" note="C4" waveform="triangle" resonFreq="2000" resonBand="100"/&gt;
+
+    &lt;!-- ======================================================= --&gt;
+    &lt;!-- MEASURE 2: Pitched Waveform                             --&gt;
+    &lt;!-- ======================================================= --&gt;
+    &lt;note measure="2" beat="1" duration="0.8" note="E6" waveform="saw" resonFreq="2000" resonBand="100"/&gt;
+    &lt;note measure="2" beat="2" duration="0.8" note="C6" waveform="square" resonFreq="2000" resonBand="100"/&gt;
+
+    &lt;!-- ======================================================= --&gt;
+    &lt;!-- MEASURE 3: Envelope generation                          --&gt;
+    &lt;!-- ======================================================= --&gt;
+    &lt;note measure="3" beat="1" duration="1.5" note="C4" waveform="saw" resonFreq="3000" resonBand="150"&gt;
+      &lt;envelope attack="0.01" decay="0.2" sustain="0.8" release="0.3"/&gt;
+    &lt;/note&gt;
+    &lt;note measure="3" beat="3" duration="1.5" note="G4" waveform="saw" resonFreq="3000" resonBand="150"&gt;
+      &lt;envelope attack="0.4" decay="0.3" sustain="0.3" release="0.5"/&gt;
+    &lt;/note&gt;
+
+    &lt;!-- ======================================================= --&gt;
+    &lt;!-- MEASURE 4: Polyphony                                    --&gt;
+    &lt;!-- ======================================================= --&gt;
+    &lt;note measure="4" beat="1" duration="1.5" note="C4" waveform="saw" resonFreq="3000" resonBand="150"&gt;
+      &lt;envelope attack="0.4" decay="0.2" sustain="0.8" release="0.3"/&gt;
+    &lt;/note&gt;
+    &lt;note measure="4" beat="1" duration="1.5" note="D4" waveform="triangle" resonFreq="3000" resonBand="150"&gt;
+      &lt;envelope attack="0.4" decay="0.2" sustain="0.8" release="0.3"/&gt;
+    &lt;/note&gt;
+    &lt;note measure="4" beat="1" duration="1.5" note="G4" waveform="saw" resonFreq="3000" resonBand="150"&gt;
+      &lt;envelope attack="0.4" decay="0.2" sustain="0.8" release="0.3"/&gt;
+    &lt;/note&gt;
+
+    &lt;!-- ======================================================= --&gt;
+    &lt;!-- MEASURE 5: Reson and Envelope                           --&gt;
+    &lt;!-- ======================================================= --&gt;
+    &lt;note measure="5" beat="1" duration="2.8" note="C3" waveform="saw" resonFreq="400" resonBand="30"&gt;
+      &lt;envelope attack="0.05" decay="0.2" sustain="0.9" release="0.5"/&gt;
+      &lt;filterEnvelope attack="1.0" decay="0.8" sustain="0.2" release="0.5"/&gt;
+    &lt;/note&gt;
+
+  &lt;/instrument&gt;
+&lt;/score&gt;
+                    </code></pre>
+                </div>
+            </div>
+
+            <!---------------Actual Score File--------------------->
+            <div class="scoreFile">
+                <h2>Actual Score File</h2>
+                <a href="scores/SubtractiveSynthesizer.score">Download Subtractive Synthesizer.score</a>
+            </div>
+
+            <!---------------list of components(linked)--------------------->
+            <div class="components">
+                <h2>Components</h2>
+                <ul>
+                    <li><a href="index.html">Main Page</a></li>
+                    <li><a href="effects.html">Effects Component</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ======================================================================= -->
+<!-- EFFECTS COMPONENTS			                                             -->
+<!-- ======================================================================= -->
+<score bpm="120" beatspermeasure="4">
+
+   <!-- ======================================================================= -->
+   <!-- BASELINE: NO EFFECT						                                -->
+   <!-- ======================================================================= -->
+   <instrument instrument="ToneInstrument">
+      <note measure="1" beat="1" duration="1.8" note="C4"/>
+      <effects wet="0.0" dry="1.0" gateEnable="false" ringModEnable="false" flangeEnable="false" chorusEnable="false"/>
+   </instrument>
+
+   <!-- ======================================================================= -->
+   <!-- EFFECT 1: NOISE GATING				                                    -->
+   <!-- ======================================================================= -->
+   <instrument instrument="ToneInstrument">
+      <note measure="2" beat="1" duration="1.8" note="C4"/>
+      <effects gateEnable="true" gateThreshold="0.20" wet="1.0" dry="0.0" ringModEnable="false" flangeEnable="false" chorusEnable="false"/>
+   </instrument>
+
+   <!-- ======================================================================= -->
+   <!-- EFFECT 2: RING MODULATION + CONTROLLABLE SEND				            -->
+   <!-- ======================================================================= -->
+   <instrument instrument="ToneInstrument">
+      <note measure="3" beat="1" duration="1.8" note="E4"/>
+      <effects ringModEnable="true" ringModFreq="440.0" wet="0.5" dry="0.5" gateEnable="false" flangeEnable="false" chorusEnable="false"/>
+   </instrument>
+
+   <!-- ======================================================================= -->
+   <!-- EFFECT 3: FLANGING 				                                        -->
+   <!-- ======================================================================= -->
+   <instrument instrument="ToneInstrument">
+      <note measure="4" beat="1" duration="1.8" note="G4"/>
+      <effects flangeEnable="true" flangeFreq="1.2" flangeDepth="0.003" wet="0.8" dry="0.8" gateEnable="false" ringModEnable="false" chorusEnable="false"/>
+   </instrument>
+
+   <!-- ======================================================================= -->
+   <!-- EFFECT 4: CHORUS 				                                        -->
+   <!-- ======================================================================= -->
+   <instrument instrument="ToneInstrument">
+      <note measure="5" beat="1" duration="1.8" note="C4"/>
+      <effects chorusEnable="true" chorusFreq="0.4" chorusDepth="0.006" wet="0.7" dry="0.7" gateEnable="false" ringModEnable="false" flangeEnable="false"/>
+   </instrument>
+
+</score>

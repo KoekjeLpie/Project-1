@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="90" beatspermeasure="4">
+  <instrument instrument="SubtractiveInstrument">
+    <!-- AI is used to help make adjustments, reference, and to make comments on my work -->
+    
+    <!-- ======================================================= -->
+    <!-- MEASURE 1: Basic Waveform                               -->
+    <!-- ======================================================= -->
+    <note measure="1" beat="1" duration="0.8" note="C4" waveform="saw" resonFreq="2000" resonBand="100"/>
+    <note measure="1" beat="2" duration="0.8" note="C4" waveform="square" resonFreq="2000" resonBand="100"/>
+    <note measure="1" beat="3" duration="0.8" note="C4" waveform="triangle" resonFreq="2000" resonBand="100"/>
+
+    <!-- ======================================================= -->
+    <!-- MEASURE 2: Pitched Waveform                             -->
+    <!-- ======================================================= -->
+    <note measure="2" beat="1" duration="0.8" note="E6" waveform="saw" resonFreq="2000" resonBand="100"/>
+    <note measure="2" beat="2" duration="0.8" note="C6" waveform="square" resonFreq="2000" resonBand="100"/>
+
+    <!-- ======================================================= -->
+    <!-- MEASURE 3: Envelope generation                          -->
+    <!-- ======================================================= -->
+    <note measure="3" beat="1" duration="1.5" note="C4" waveform="saw" resonFreq="3000" resonBand="150">
+      <envelope attack="0.01" decay="0.2" sustain="0.8" release="0.3"/>
+    </note>
+    <note measure="3" beat="3" duration="1.5" note="G4" waveform="saw" resonFreq="3000" resonBand="150">
+      <envelope attack="0.4" decay="0.3" sustain="0.3" release="0.5"/>
+    </note>
+
+    <!-- ======================================================= -->
+    <!-- MEASURE 4: Polyphony                                    -->
+    <!-- ======================================================= -->
+    <note measure="4" beat="1" duration="1.5" note="C4" waveform="saw" resonFreq="3000" resonBand="150">
+      <envelope attack="0.4" decay="0.2" sustain="0.8" release="0.3"/>
+    </note>
+    <note measure="4" beat="1" duration="1.5" note="D4" waveform="triangle" resonFreq="3000" resonBand="150">
+      <envelope attack="0.4" decay="0.2" sustain="0.8" release="0.3"/>
+    </note>
+    <note measure="4" beat="1" duration="1.5" note="G4" waveform="saw" resonFreq="3000" resonBand="150">
+      <envelope attack="0.4" decay="0.2" sustain="0.8" release="0.3"/>
+    </note>
+
+    <!-- ======================================================= -->
+    <!-- MEASURE 5: Reson and Envelope                           -->
+    <!-- ======================================================= -->
+    <note measure="5" beat="1" duration="2.8" note="C3" waveform="saw" resonFreq="400" resonBand="30">
+      <envelope attack="0.05" decay="0.2" sustain="0.9" release="0.5"/>
+      <filterEnvelope attack="1.0" decay="0.8" sustain="0.2" release="0.5"/>
+    </note>
+
+  </instrument>
+</score>

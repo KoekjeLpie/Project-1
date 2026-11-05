@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1 - Effects </title>
+</head>
+<body style="background-color: rgb(181, 194, 194);">
+    <main>
+        <div class="mainPage">
+            
+            <!---------------Title of Component--------------------->
+            <div class="Title">
+                <h1>Effects</h1>
+                <p>By Alyssa Vue</p>
+            </div>
+
+            <!---------------Audio Player--------------------->
+            <div class="audioPlayer">
+                <h2>Audio</h2>
+                <audio controls>
+                    <source src="audio/effects.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!---------------Score File Format--------------------->
+            <div class="scoreFormat">
+                <h2>Score File Format</h2>
+                <p>The score file and audio features the different types of effects applied onto the audio notes. There are parameters like wet and dry mix, or enable tags to control how the effects alter the sounds.</p>
+                <ul>
+                    <li><b>Baseline:</b> A note is played with no effect applied.</li>
+                    <li><b>Noise gating:</b> Noise gate is applied onto the note to cut sound below a certain volume and removing unnessary noise.</li>
+                    <li><b>Ring modulation + controllable send:</b> Multiplies the note signal with sine wave to create a metallic robotic tone. A 50/50 wet and dry mix is in to show controllable send.</li>
+                    <li><b>Flanging:</b> Flang effect gives the note a swooshing jet-engine phase effect.</li>
+                    <li><b>Chorus:</b> Chorus is similar to flanging, but uses longer delays onto the sound.</li>
+                </ul>
+
+                <!----------Score Style Format---------------->
+                <!--AI is used to help insert the .score into the page-->
+                <p>Below is the score file format for this component demonstration.</p>
+                <div class="scoreText">
+                    <pre><code>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!-- ======================================================================= --&gt;
+&lt;!-- EFFECTS COMPONENTS                                                      --&gt;
+&lt;!-- ======================================================================= --&gt;
+&lt;score bpm="120" beatspermeasure="4"&gt;
+
+   &lt;!-- ======================================================================= --&gt;
+   &lt;!-- BASELINE: NO EFFECT                                                     --&gt;
+   &lt;!-- ======================================================================= --&gt;
+   &lt;instrument instrument="ToneInstrument"&gt;
+      &lt;note measure="1" beat="1" duration="1.8" note="C4"/&gt;
+      &lt;effects wet="0.0" dry="1.0" gateEnable="false" ringModEnable="false" flangeEnable="false" chorusEnable="false"/&gt;
+   &lt;/instrument&gt;
+
+   &lt;!-- ======================================================================= --&gt;
+   &lt;!-- EFFECT 1: NOISE GATING                                                  --&gt;
+   &lt;!-- ======================================================================= --&gt;
+   &lt;instrument instrument="ToneInstrument"&gt;
+      &lt;note measure="2" beat="1" duration="1.8" note="C4"/&gt;
+      &lt;effects gateEnable="true" gateThreshold="0.20" wet="1.0" dry="0.0" ringModEnable="false" flangeEnable="false" chorusEnable="false"/&gt;
+   &lt;/instrument&gt;
+
+   &lt;!-- ======================================================================= --&gt;
+   &lt;!-- EFFECT 2: RING MODULATION + CONTROLLABLE SEND                           --&gt;
+   &lt;!-- ======================================================================= --&gt;
+   &lt;instrument instrument="ToneInstrument"&gt;
+      &lt;note measure="3" beat="1" duration="1.8" note="E4"/&gt;
+      &lt;effects ringModEnable="true" ringModFreq="440.0" wet="0.5" dry="0.5" gateEnable="false" flangeEnable="false" chorusEnable="false"/&gt;
+   &lt;/instrument&gt;
+
+   &lt;!-- ======================================================================= --&gt;
+   &lt;!-- EFFECT 3: FLANGING                                                      --&gt;
+   &lt;!-- ======================================================================= --&gt;
+   &lt;instrument instrument="ToneInstrument"&gt;
+      &lt;note measure="4" beat="1" duration="1.8" note="G4"/&gt;
+      &lt;effects flangeEnable="true" flangeFreq="1.2" flangeDepth="0.003" wet="0.8" dry="0.8" gateEnable="false" ringModEnable="false" chorusEnable="false"/&gt;
+   &lt;/instrument&gt;
+
+   &lt;!-- ======================================================================= --&gt;
+   &lt;!-- EFFECT 4: CHORUS                                                        --&gt;
+   &lt;!-- ======================================================================= --&gt;
+   &lt;instrument instrument="ToneInstrument"&gt;
+      &lt;note measure="5" beat="1" duration="1.8" note="C4"/&gt;
+      &lt;effects chorusEnable="true" chorusFreq="0.4" chorusDepth="0.006" wet="0.7" dry="0.7" gateEnable="false" ringModEnable="false" flangeEnable="false"/&gt;
+   &lt;/instrument&gt;
+
+&lt;/score&gt;</code></pre>
+                </div>
+            </div>
+
+            <!---------------Actual Score File--------------------->
+            <div class="scoreFile">
+                <h2>Actual Score File</h2>
+                <a href="scores/effects.score">Download effects.score</a>
+            </div>
+
+            <!---------------list of components(linked)--------------------->
+            <div class="components">
+                <h2>Components</h2>
+                <ul>
+                    <li><a href="index.html">Main Page</a></li>
+                    <li><a href="subtractive.html">Subtractive Synthesizer</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

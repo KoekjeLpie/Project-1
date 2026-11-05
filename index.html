@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1 - Synthie</title>
+</head>
+<body style ="background-color: rgb(181, 194, 194);">
+    <main>
+        <div class="mainPage">
+            
+            <!---------------Title and Group Members--------------------->
+            <div class="Title">
+                <h1>Project 1</h1>
+                <p>By Alyssa Vue</p>
+            </div>
+
+            <!---------------Audio Player--------------------->
+            <div class="audioPlayer">
+                <h2>Audio</h2>
+                <audio controls>
+                    <source src="audio/music.mp3" type="audio/mp3">
+                    <source src="audio/audio/Subtractive Synthesizer Test.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <!---------------Score File Format--------------------->
+            <div class="scoreFormat">
+                <h2>Score File Format</h2>
+                <h4>Basic Description of Score File</h4>
+                <p>The score file uses XML to define tempo and instruments. The score file has a bpm setting to adjust the speed of the audio. The score file contains a duration setting, allowing the number of beats the note can play. There are also multiple enable tools to adjust effects onto the note or to select an instrument.</p>
+                <h4>Description of Score File for Music</h4>
+                <p>The score file used to make the song is a combination of ToneInstrument and SubtractiveInstrument notes. The SubtractiveInstrument plays the bass clef notes and chords with filter envelopes, while the ToneInstrument plays the main melody.</p>
+                <!----------Score Style Format---------------->
+                <h4>Below is a sample of what the format looks like for the score file.</h4>
+                <div class="scoreSample">
+                    <pre><code>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;score bpm="89" beatspermeasure="4"&gt;
+  &lt;instrument instrument="ToneInstrument"&gt;
+    &lt;note measure="1" beat="1" duration="2.0" note="F4"/&gt;
+    &lt;note measure="1" beat="1" duration="2.0" note="A4"/&gt;
+    &lt;note measure="1" beat="1" duration="2.0" note="D5"/&gt;
+  &lt;/instrument&gt;
+  &lt;instrument instrument="SubtractiveInstrument"&gt;
+    &lt;note measure="1" beat="1" duration="2.0" note="D3" waveform="saw" resonFreq="350" resonBand="25"&gt;
+      &lt;envelope attack="0.05" decay="0.3" sustain="0.8" release="0.4"/&gt;
+      &lt;filterEnvelope attack="0.2" decay="0.4" sustain="0.2" release="0.3"/&gt;
+    &lt;/note&gt;
+  &lt;/instrument&gt;
+&lt;/score&gt;
+                    </code></pre>
+                </div>
+            </div>
+
+            <!---------------Actual Score File--------------------->
+            <div class="scoreFile">
+                <h2>Actual Score File</h2>
+                <a href="scores/music.score"> download music.score</a>
+
+            <!---------------list of components(linked)--------------------->
+            <div class="components">
+                <h2>Components</h2>
+                <ul>
+                    <li><a href="effects.html">Effects</a></li>
+                    <li><a href="subtractive.html">Subtractive Synthesizer</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

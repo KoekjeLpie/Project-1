@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ================================================================= -->
+<!-- MAIN                                                              -->
+<!-- ================================================================= -->
+<score bpm="140" beatspermeasure="4">
+  <!-- AI used to fix errors, make a few comments, and make notes for bass clef parts -->
+  
+  <!-- ================================================================= -->
+  <!-- TRACK 1: Melody (ToneInstrument)                                  -->
+  <!-- ================================================================= -->
+  <instrument instrument="ToneInstrument">
+
+    <!-- MEASURE 1: Upper Chords (Dm -> Am/C) -->
+    <note measure="1" beat="1" duration="2.0" note="F4"/>
+    <note measure="1" beat="1" duration="2.0" note="A4"/>
+    <note measure="1" beat="1" duration="2.0" note="D5"/>
+
+    <note measure="1" beat="3" duration="2.0" note="E4"/>
+    <note measure="1" beat="3" duration="2.0" note="A4"/>
+    <note measure="1" beat="3" duration="2.0" note="C5"/>
+
+    <!-- MEASURE 2: Upper Chords (Bdim -> Bbm) -->
+    <note measure="2" beat="1" duration="2.0" note="D4"/>
+    <note measure="2" beat="1" duration="2.0" note="F4"/>
+    <note measure="2" beat="1" duration="2.0" note="B4"/>
+
+    <note measure="2" beat="3" duration="2.0" note="Db4"/>
+    <note measure="2" beat="3" duration="2.0" note="F4"/>
+    <note measure="2" beat="3" duration="2.0" note="Bb4"/>
+
+    <!-- MEASURE 3: Intro Lead (F -> Bb/D) -->
+    <note measure="3" beat="1" duration="1.0" note="A3"/>
+    <note measure="3" beat="2" duration="1.0" note="C4"/>
+    <note measure="3" beat="3" duration="2.0" note="F4"/>
+
+    <!-- MEASURE 4: Intro Lead Repeat -->
+    <note measure="4" beat="1" duration="1.0" note="A3"/>
+    <note measure="4" beat="2" duration="1.0" note="C4"/>
+    <note measure="4" beat="3" duration="2.0" note="F4"/>
+
+    <!-- MEASURE 5:  -->
+    <note measure="5" beat="1" duration="0.5" note="C4"/>
+    <note measure="5" beat="1.5" duration="0.5" note="D4"/>
+    <note measure="5" beat="2" duration="0.5" note="F4"/>
+    <note measure="5" beat="2.5" duration="0.5" note="D4"/>
+    <note measure="5" beat="3" duration="0.5" note="F4"/>
+    <note measure="5" beat="3.5" duration="0.5" note="D4"/>
+
+    <!-- MEASURE 6:  -->
+    <note measure="6" beat="1" duration="0.5" note="D4"/>
+    <note measure="6" beat="1.5" duration="0.5" note="C4"/>
+    <note measure="6" beat="2" duration="0.5" note="D4"/>
+    <note measure="6" beat="2.5" duration="0.5" note="F4"/>
+    <note measure="6" beat="3" duration="0.5" note="G4"/>
+    <note measure="6" beat="3.5" duration="0.5" note="E4"/>
+
+    <!-- MEASURE 7:  -->
+    <note measure="7" beat="1" duration="0.5" note="E4"/>
+    <note measure="7" beat="1.5" duration="0.5" note="F4"/>
+    <note measure="7" beat="2" duration="0.5" note="G4"/>
+    <note measure="7" beat="2.5" duration="0.5" note="E4"/>
+    <note measure="7" beat="3" duration="0.5" note="F4"/>
+    <note measure="7" beat="3.5" duration="0.5" note="G4"/>
+    <note measure="7" beat="4" duration="0.5" note="A4"/>
+    <note measure="7" beat="4.5" duration="0.5" note="Bb4"/>
+
+    <!-- MEASURE 8:  -->
+    <note measure="8" beat="1" duration="0.5" note="D4"/>
+    <note measure="8" beat="1.5" duration="0.5" note="C4"/>
+    <note measure="8" beat="2" duration="0.5" note="D4"/>
+    <note measure="8" beat="2.5" duration="0.5" note="F4"/>
+    <note measure="8" beat="3" duration="2.0" note="C4"/>
+
+    <!-- MEASURE 9: -->
+    <note measure="9" beat="1" duration="0.5" note="C4"/>
+    <note measure="9" beat="1.5" duration="0.5" note="D4"/>
+    <note measure="9" beat="2" duration="0.5" note="F4"/>
+    <note measure="9" beat="2.5" duration="0.5" note="D4"/>
+    <note measure="9" beat="3" duration="0.5" note="F4"/>
+    <note measure="9" beat="3.5" duration="0.5" note="D4"/>
+
+    <!-- MEASURE 10: -->
+    <note measure="10" beat="1" duration="0.5" note="D4"/>
+    <note measure="10" beat="1.5" duration="0.5" note="C4"/>
+    <note measure="10" beat="2" duration="0.5" note="D4"/>
+    <note measure="10" beat="2.5" duration="0.5" note="F4"/>
+    <note measure="10" beat="3" duration="0.5" note="G4"/>
+    <note measure="10" beat="3.5" duration="0.5" note="E4"/>
+
+    <!-- MEASURE 11: -->
+    <note measure="11" beat="1" duration="0.5" note="E4"/>
+    <note measure="11" beat="1.5" duration="0.5" note="F4"/>
+    <note measure="11" beat="2" duration="0.5" note="G4"/>
+    <note measure="11" beat="2.5" duration="0.5" note="E4"/>
+    <note measure="11" beat="3" duration="0.5" note="F4"/>
+    <note measure="11" beat="3.5" duration="0.5" note="G4"/>
+    <note measure="11" beat="4" duration="0.5" note="A4"/>
+
+    <!-- MEASURE 12 (2/4 measure): -->
+    <note measure="12" beat="1" duration="1.0" note="Bb4"/>
+
+    <!-- MEASURE 13 (4/4 return): -->
+    <note measure="13" beat="1" duration="1.0" note="A4"/>
+    <note measure="13" beat="2" duration="1.0" note="G4"/>
+    <note measure="13" beat="3" duration="2.0" note="F4"/>
+
+    <!-- MEASURE 14: -->
+    <note measure="14" beat="1" duration="0.5" note="F4"/>
+    <note measure="14" beat="1.5" duration="0.5" note="G4"/>
+    <note measure="14" beat="2" duration="0.5" note="A4"/>
+    <note measure="14" beat="2.5" duration="0.5" note="Bb4"/>
+    <note measure="14" beat="3" duration="1.0" note="C5"/>
+
+    <!-- MEASURE 15: -->
+    <note measure="15" beat="1" duration="0.5" note="C5"/>
+    <note measure="15" beat="1.5" duration="0.5" note="Bb4"/>
+    <note measure="15" beat="2" duration="0.5" note="A4"/>
+    <note measure="15" beat="2.5" duration="0.5" note="G4"/>
+    <note measure="15" beat="3" duration="0.5" note="A4"/>
+    <note measure="15" beat="3.5" duration="0.5" note="F4"/>
+
+    <!-- MEASURE 16: -->
+    <note measure="16" beat="1" duration="0.5" note="F4"/>
+    <note measure="16" beat="1.5" duration="0.5" note="G4"/>
+    <note measure="16" beat="2" duration="0.5" note="A4"/>
+    <note measure="16" beat="2.5" duration="0.5" note="Bb4"/>
+    <note measure="16" beat="3" duration="1.0" note="C5"/>
+
+    <!-- MEASURE 17: -->
+    <note measure="17" beat="1" duration="0.5" note="C5"/>
+    <note measure="17" beat="1.5" duration="0.5" note="Bb4"/>
+    <note measure="17" beat="2" duration="0.5" note="A4"/>
+    <note measure="17" beat="2.5" duration="0.5" note="G4"/>
+    <note measure="17" beat="3" duration="1.0" note="F4"/>
+
+    <!-- MEASURE 18: -->
+    <note measure="18" beat="1" duration="0.5" note="C4"/>
+    <note measure="18" beat="1.5" duration="0.5" note="D4"/>
+    <note measure="18" beat="2" duration="0.5" note="F4"/>
+    <note measure="18" beat="2.5" duration="0.5" note="D4"/>
+    <note measure="18" beat="3" duration="0.5" note="F4"/>
+    <note measure="18" beat="3.5" duration="0.5" note="D4"/>
+
+    <!-- MEASURE 19: -->
+    <note measure="19" beat="1" duration="0.5" note="D4"/>
+    <note measure="19" beat="1.5" duration="0.5" note="C4"/>
+    <note measure="19" beat="2" duration="0.5" note="D4"/>
+    <note measure="19" beat="2.5" duration="0.5" note="F4"/>
+    <note measure="19" beat="3" duration="0.5" note="G4"/>
+    <note measure="19" beat="3.5" duration="0.5" note="E4"/>
+
+    <!-- MEASURE 20: -->
+    <note measure="20" beat="1" duration="0.5" note="E4"/>
+    <note measure="20" beat="1.5" duration="0.5" note="F4"/>
+    <note measure="20" beat="2" duration="0.5" note="G4"/>
+    <note measure="20" beat="2.5" duration="0.5" note="E4"/>
+    <note measure="20" beat="3" duration="0.5" note="F4"/>
+    <note measure="20" beat="3.5" duration="0.5" note="G4"/>
+    <note measure="20" beat="4" duration="0.5" note="A4"/>
+    <note measure="20" beat="4.5" duration="0.5" note="Bb4"/>
+
+    <!-- MEASURE 21: -->
+    <note measure="21" beat="1" duration="0.5" note="D4"/>
+    <note measure="21" beat="1.5" duration="0.5" note="C4"/>
+    <note measure="21" beat="2" duration="0.5" note="D4"/>
+    <note measure="21" beat="2.5" duration="0.5" note="F4"/>
+    <note measure="21" beat="3" duration="2.0" note="C4"/>
+
+    <!-- MEASURE 22: -->
+    <note measure="22" beat="1" duration="0.5" note="C4"/>
+    <note measure="22" beat="1.5" duration="0.5" note="D4"/>
+    <note measure="22" beat="2" duration="0.5" note="F4"/>
+    <note measure="22" beat="2.5" duration="0.5" note="D4"/>
+    <note measure="22" beat="3" duration="0.5" note="F4"/>
+    <note measure="22" beat="3.5" duration="0.5" note="D4"/>
+
+    <!-- MEASURE 23: -->
+    <note measure="23" beat="1" duration="0.5" note="D4"/>
+    <note measure="23" beat="1.5" duration="0.5" note="C4"/>
+    <note measure="23" beat="2" duration="0.5" note="D4"/>
+    <note measure="23" beat="2.5" duration="0.5" note="F4"/>
+    <note measure="23" beat="3" duration="0.5" note="G4"/>
+    <note measure="23" beat="3.5" duration="0.5" note="E4"/>
+
+    <!-- MEASURE 24: -->
+    <note measure="24" beat="1" duration="0.5" note="E4"/>
+    <note measure="24" beat="1.5" duration="0.5" note="F4"/>
+    <note measure="24" beat="2" duration="0.5" note="G4"/>
+    <note measure="24" beat="2.5" duration="0.5" note="E4"/>
+    <note measure="24" beat="3" duration="0.5" note="F4"/>
+    <note measure="24" beat="3.5" duration="0.5" note="G4"/>
+    <note measure="24" beat="4" duration="0.5" note="A4"/>
+
+    <!-- MEASURE 25 (2/4 measure): -->
+    <note measure="25" beat="1" duration="1.0" note="Bb4"/>
+
+    <!-- MEASURE 26 (4/4 return): -->
+    <note measure="26" beat="1" duration="1.0" note="A4"/>
+    <note measure="26" beat="2" duration="1.0" note="G4"/>
+    <note measure="26" beat="3" duration="2.0" note="F4"/>
+
+    <!-- MEASURE 27: -->
+    <note measure="27" beat="1" duration="0.5" note="F4"/>
+    <note measure="27" beat="1.5" duration="0.5" note="G4"/>
+    <note measure="27" beat="2" duration="0.5" note="A4"/>
+    <note measure="27" beat="2.5" duration="0.5" note="Bb4"/>
+    <note measure="27" beat="3" duration="1.0" note="C5"/>
+
+    <!-- MEASURE 28: -->
+    <note measure="28" beat="1" duration="0.5" note="C5"/>
+    <note measure="28" beat="1.5" duration="0.5" note="Bb4"/>
+    <note measure="28" beat="2" duration="0.5" note="A4"/>
+    <note measure="28" beat="2.5" duration="0.5" note="G4"/>
+    <note measure="28" beat="3" duration="0.5" note="A4"/>
+    <note measure="28" beat="3.5" duration="0.5" note="F4"/>
+
+    <!-- MEASURE 29: -->
+    <note measure="29" beat="1" duration="0.5" note="F4"/>
+    <note measure="29" beat="1.5" duration="0.5" note="G4"/>
+    <note measure="29" beat="2" duration="0.5" note="A4"/>
+    <note measure="29" beat="2.5" duration="0.5" note="Bb4"/>
+    <note measure="29" beat="3" duration="1.0" note="C5"/>
+
+    <!-- MEASURE 30: -->
+    <note measure="30" beat="1" duration="0.5" note="C5"/>
+    <note measure="30" beat="1.5" duration="0.5" note="Bb4"/>
+    <note measure="30" beat="2" duration="0.5" note="A4"/>
+    <note measure="30" beat="2.5" duration="0.5" note="G4"/>
+    <note measure="30" beat="3" duration="1.0" note="F4"/>
+
+    <!-- MEASURE 31: -->
+    <note measure="31" beat="1" duration="0.5" note="C4"/>
+    <note measure="31" beat="1.5" duration="0.5" note="D4"/>
+    <note measure="31" beat="2" duration="0.5" note="F4"/>
+    <note measure="31" beat="2.5" duration="0.5" note="D4"/>
+    <note measure="31" beat="3" duration="0.5" note="F4"/>
+    <note measure="31" beat="3.5" duration="0.5" note="D4"/>
+
+    <!-- MEASURE 32: -->
+    <note measure="32" beat="1" duration="0.5" note="D4"/>
+    <note measure="32" beat="1.5" duration="0.5" note="C4"/>
+    <note measure="32" beat="2" duration="0.5" note="D4"/>
+    <note measure="32" beat="2.5" duration="0.5" note="F4"/>
+    <note measure="32" beat="3" duration="0.5" note="G4"/>
+    <note measure="32" beat="3.5" duration="0.5" note="E4"/>
+
+    <!-- MEASURE 33: -->
+    <note measure="33" beat="1" duration="1.0" note="F4"/>
+    <note measure="33" beat="2" duration="1.0" note="G4"/>
+    <note measure="33" beat="3" duration="1.0" note="A4"/>
+    <note measure="33" beat="4" duration="1.0" note="Bb4"/>
+
+    <!-- MEASURE 34: -->
+    <note measure="34" beat="1" duration="2.0" note="C5"/>
+    <note measure="34" beat="3" duration="2.0" note="Db5"/>
+
+    <!-- MEASURE 35: -->
+    <note measure="35" beat="1" duration="0.5" note="F4"/>
+    <note measure="35" beat="1.5" duration="0.5" note="A4"/>
+    <note measure="35" beat="2" duration="0.5" note="C5"/>
+    <note measure="35" beat="2.5" duration="0.5" note="D5"/>
+    <note measure="35" beat="3" duration="2.0" note="F5"/>
+  </instrument>
+
+  <!-- ================================================================= -->
+  <!-- TRACK 2: Accompaniment - Subtractive Bass                         -->
+  <!-- ================================================================= -->
+  <!-- base clef parts where AI is used -->
+  <instrument instrument="SubtractiveInstrument">
+
+    <!-- PAGE 1 Intro (Measures 1-4) -->
+    <note measure="1" beat="1" duration="2.0" note="D3" waveform="saw" resonFreq="350" resonBand="25">
+      <envelope attack="0.05" decay="0.3" sustain="0.8" release="0.4"/>
+      <filterEnvelope attack="0.2" decay="0.4" sustain="0.2" release="0.3"/>
+    </note>
+    <note measure="1" beat="3" duration="2.0" note="C3" waveform="saw" resonFreq="350" resonBand="25">
+      <envelope attack="0.05" decay="0.3" sustain="0.8" release="0.4"/>
+      <filterEnvelope attack="0.2" decay="0.4" sustain="0.2" release="0.3"/>
+    </note>
+
+    <note measure="1" beat="1" duration="2.0" note="F4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="1" beat="1" duration="2.0" note="A4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="1" beat="1" duration="2.0" note="D5" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="1" beat="3" duration="2.0" note="E4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="1" beat="3" duration="2.0" note="A4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="1" beat="3" duration="2.0" note="C5" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="2" beat="1" duration="2.0" note="B2" waveform="saw" resonFreq="350" resonBand="25">
+      <envelope attack="0.05" decay="0.3" sustain="0.8" release="0.4"/>
+      <filterEnvelope attack="0.2" decay="0.4" sustain="0.2" release="0.3"/>
+    </note>
+    <note measure="2" beat="3" duration="2.0" note="Bb2" waveform="saw" resonFreq="350" resonBand="25">
+      <envelope attack="0.05" decay="0.3" sustain="0.8" release="0.4"/>
+      <filterEnvelope attack="0.2" decay="0.4" sustain="0.2" release="0.3"/>
+    </note>
+
+    <note measure="2" beat="1" duration="2.0" note="D4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="2" beat="1" duration="2.0" note="F4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="2" beat="1" duration="2.0" note="B4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="2" beat="3" duration="2.0" note="Db4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="2" beat="3" duration="2.0" note="F4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="2" beat="3" duration="2.0" note="Bb4" waveform="saw" resonFreq="650" resonBand="60">
+      <envelope attack="0.1" decay="0.3" sustain="0.7" release="0.5"/>
+      <filterEnvelope attack="0.5" decay="0.4" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="3" beat="1" duration="4.0" note="F2" waveform="square" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.3" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="3" beat="1" duration="4.0" note="A3" waveform="saw" resonFreq="600" resonBand="50"/>
+
+    <note measure="4" beat="1" duration="4.0" note="F2" waveform="square" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.3" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+    <note measure="4" beat="1" duration="4.0" note="A3" waveform="saw" resonFreq="600" resonBand="50"/>
+
+    <note measure="5" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.4" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="6" beat="1" duration="2.0" note="Bb2" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.2" decay="0.3" sustain="0.3" release="0.3"/>
+    </note>
+    <note measure="6" beat="3" duration="2.0" note="C3" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.2" decay="0.3" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="7" beat="1" duration="4.0" note="C#3" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.4" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="8" beat="1" duration="2.0" note="D3" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="8" beat="3" duration="2.0" note="C3" waveform="saw" resonFreq="300" resonBand="20"/>
+
+    <note measure="9" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.4" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="10" beat="1" duration="2.0" note="Bb2" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="10" beat="3" duration="2.0" note="C3" waveform="saw" resonFreq="300" resonBand="20"/>
+
+    <note measure="11" beat="1" duration="4.0" note="C#3" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.4" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="12" beat="1" duration="1.0" note="D3" waveform="saw" resonFreq="300" resonBand="20"/>
+
+    <note measure="13" beat="1" duration="4.0" note="Bb2" waveform="saw" resonFreq="350" resonBand="25">
+      <filterEnvelope attack="0.3" decay="0.4" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="14" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="350" resonBand="25">
+      <filterEnvelope attack="0.3" decay="0.4" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="15" beat="1" duration="4.0" note="Bb2" waveform="saw" resonFreq="350" resonBand="25">
+      <filterEnvelope attack="0.3" decay="0.4" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="16" beat="1" duration="4.0" note="C3" waveform="saw" resonFreq="350" resonBand="25">
+      <filterEnvelope attack="0.3" decay="0.4" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="17" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="300" resonBand="20"/>
+
+    <note measure="18" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.4" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="19" beat="1" duration="2.0" note="Bb2" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.2" decay="0.3" sustain="0.3" release="0.3"/>
+    </note>
+    <note measure="19" beat="3" duration="2.0" note="C3" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.2" decay="0.3" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="20" beat="1" duration="4.0" note="C#3" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.4" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="21" beat="1" duration="2.0" note="D3" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="21" beat="3" duration="2.0" note="C3" waveform="saw" resonFreq="300" resonBand="20"/>
+
+    <note measure="22" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.4" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="23" beat="1" duration="2.0" note="Bb2" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="23" beat="3" duration="2.0" note="C3" waveform="saw" resonFreq="300" resonBand="20"/>
+
+    <note measure="24" beat="1" duration="4.0" note="C#3" waveform="saw" resonFreq="300" resonBand="20">
+      <filterEnvelope attack="0.4" decay="0.5" sustain="0.3" release="0.4"/>
+    </note>
+
+    <note measure="25" beat="1" duration="1.0" note="D3" waveform="saw" resonFreq="300" resonBand="20"/>
+
+    <note measure="26" beat="1" duration="4.0" note="Bb2" waveform="saw" resonFreq="350" resonBand="25">
+      <filterEnvelope attack="0.3" decay="0.4" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="27" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="350" resonBand="25">
+      <filterEnvelope attack="0.3" decay="0.4" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="28" beat="1" duration="4.0" note="Bb2" waveform="saw" resonFreq="350" resonBand="25">
+      <filterEnvelope attack="0.3" decay="0.4" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="29" beat="1" duration="4.0" note="C3" waveform="saw" resonFreq="350" resonBand="25">
+      <filterEnvelope attack="0.3" decay="0.4" sustain="0.3" release="0.3"/>
+    </note>
+
+    <note measure="30" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="300" resonBand="20"/>
+
+    <note measure="31" beat="1" duration="4.0" note="Bb2" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="32" beat="1" duration="2.0" note="C3" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="32" beat="3" duration="2.0" note="Db3" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="33" beat="1" duration="4.0" note="Db3" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="34" beat="1" duration="4.0" note="D3" waveform="saw" resonFreq="300" resonBand="20"/>
+    <note measure="35" beat="1" duration="4.0" note="F2" waveform="saw" resonFreq="300" resonBand="20"/>
+
+  </instrument>
+</score>
